@@ -3,7 +3,7 @@
 # Default values
 BASEDIR=/var/packages/GitBucket/target
 GITBUCKET_WAR_FILE=$BASEDIR/gitbucket.war
-JAVA=/var/packages/JavaManager/target/Java/bin/java
+JAVA=/volume1/@appstore/Java7/j2sdk-image/bin/java
 
 source $BASEDIR/etc/gitbucket.conf
 GITBUCKET_HOME=${GITBUCKET_HOME:-$BASEDIR}
